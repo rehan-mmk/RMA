@@ -6,7 +6,7 @@
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
-    <h3>Installed CLI Plugins </h3>
+    <h3>Installed CLI Plugins. this is added in branch2</h3>
     <p>this is tmp branch para</p>
     <p>this is tmp branch para 2</p>
     <ul>
