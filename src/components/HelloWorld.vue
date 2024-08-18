@@ -8,6 +8,7 @@
     </p>
     <h3>Installed CLI Plugins </h3>
     <p>this is tmp branch para</p>
+    <p>this is tmp branch para 2</p>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
