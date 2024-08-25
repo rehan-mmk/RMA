@@ -1,11 +1,13 @@
-import Signup from './Signup.vue';
-import Home from './Home.vue';
+import SignupComponent from './Signup.vue';
+import LoginComponent from './Login.vue';
+import HomeComponent from './Home.vue';
 
 import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
-    { name: 'signup', component: Signup, path: '/sign-up' },
-    { name: 'Home', component: Home, path: '/' },
+    { name: 'signup', component: SignupComponent, path: '/sign-up' },
+    { name: 'login',  component: LoginComponent,  path: '/login' },
+    { name: 'home',   component: HomeComponent,   path: '/' },
 ];
 
 
