@@ -6,6 +6,13 @@
 <script>
     export default {
         name: 'HomeComponent',
+
+        mounted() {
+        let user = localStorage.getItem("user-info");
+        if (!user) {
+            this.$router.push({ name: 'login' });
+        }
+    }
     }
 </script>
 
