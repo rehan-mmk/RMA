@@ -49,7 +49,7 @@ This is my first Vue.js testing project and is not intended to be a real-time pr
    ```
 
 ## Accessing the Application
-1. Navigate to the home page:
+1. Navigate to the login page:
    - The application will typically run on `http://localhost:8080` after running the development server.
 2. Login or sign up to access the application features.
 
@@ -60,4 +60,4 @@ Feel free to test the project and explore its features. The `db.json` file is pr
 This project is licensed under the MIT License.
 
 ## Contact
-For any questions or support, please contact Rehanullah Khan at [reh1hat@gmail.com](mailto:reh1hat@gmail.com).
+For any questions or support, please contact Rehanullah Khan at [reh1hat@gmail.com].

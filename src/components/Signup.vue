@@ -7,7 +7,7 @@
         <input :type="showPassword ? 'text' : 'password'" placeholder="Password" v-model="password" />
         <button @click="signup" :disabled="loading">{{ loading ? 'Signing up...' : 'Signup' }}</button>
         <p class="loginlink">
-            <router-link to="/login">Login</router-link>
+            <router-link to="/">Login</router-link>
         </p>
         <p v-if="errorMessage" class="error">{{ errorMessage }}</p>
     </div>

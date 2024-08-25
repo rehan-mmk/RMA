@@ -9,8 +9,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
     { name: 'signup', component: SignupComponent, path: '/sign-up' },
-    { name: 'login',  component: LoginComponent,  path: '/login' },
-    { name: 'home',   component: HomeComponent,   path: '/' },
+    { name: 'login',  component: LoginComponent,  path: '/' },
+    { name: 'home',   component: HomeComponent,   path: '/home' },
     { name: 'add-restaurant',   component: AddRestaurant,   path: '/add-restaurant' },
     { name: 'update-restaurant',   component: UpdateRestaurant,   path: '/update-restaurant' }
 ];
