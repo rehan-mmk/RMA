@@ -1,6 +1,6 @@
 <template>
     <HeaderComponent />
-    <h1>Hello {{name}}! Welcome to Home Component</h1>
+    <h1>Hello {{name}}! Welcome Here</h1>
     <table border="1px">
             <thead>
                 <th>S/No</th> <th>Name</th> <th>Contact</th> <th>Address</th>
