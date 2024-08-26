@@ -39,14 +39,21 @@ This is my first Vue.js testing project and is not intended to be a real-time pr
     ```bash
    npm install -g json-server
    ```   
-6. Start the JSON Server:
-   ```bash
-   json-server --watch db.json
-   ```
-7. Run the Vue.js development server:
+6. Run the Vue.js development server:
    ```bash
    npm run serve
    ```
+
+
+## How to start JSON Server
+1. Move the db.json file to a separate folder (e.g., in Documents or Downloads).
+2. Open a command prompt in that folder and run the following command:
+   ```bash
+   json-server --watch db.json
+   ```
+3. Open your browser and navigate to http://localhost:3000/ to access the JSON Server.
+
+
 
 ## Accessing the Application
 1. Navigate to the login page:
