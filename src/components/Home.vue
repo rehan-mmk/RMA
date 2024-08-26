@@ -3,7 +3,7 @@
     <h1>Hello {{name}}! Welcome Here</h1>
     <table border="1px">
             <thead>
-                <th>S/No</th> <th>Name</th> <th>Contact</th> <th>Address</th>
+                <th>S/No</th> <th>Name</th> <th>Contact</th> <th>Address</th> <th colspan="2"> Action </th>
             </thead>
             <tbody>
                 <tr v-for="(item, index) in restaurants" :key="item.id">
@@ -11,6 +11,8 @@
                     <td>{{item.name}}</td>
                     <td>{{item.contact}}</td>
                     <td>{{item.address}}</td>
+                    <td> <router-link :to="'/update-restaurant/'+item.id"> Edit </router-link> </td>
+                    <td> Delete </td>
                 </tr>
             </tbody>
         </table>
