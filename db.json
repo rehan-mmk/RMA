@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "kashif",
+      "email": "kashif@gmail.com",
+      "password": "kashif123"
+    },
+    {
+      "id": "2",
+      "name": "khan",
+      "email": "khan@gmail.com",
+      "password": "khan123"
+    },
+    {
+      "id": "3",
+      "name": "ahmad",
+      "email": "ahmad@gmail.com",
+      "password": "ahmad123"
+    },
+    {
+      "id": "4",
+      "name": "result",
+      "email": "result@gmail.com",
+      "password": "result123"
+    },
+    {
+      "id": "5",
+      "name": "azeem",
+      "email": "azeem@gmail.com",
+      "password": "azeem123"
+    },
+    {
+      "id": "6",
+      "name": "peter",
+      "email": "peter@gmail.com",
+      "password": "peter123"
+    },
+    {
+      "id": "6beb",
+      "name": "john",
+      "email": "john@gmail.com",
+      "password": "john123"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Burger King",
+      "contact": 111111,
+      "address": "Noida Sector 50"
+    },
+    {
+      "name": "Dominos",
+      "contact": "222222",
+      "address": "Gurgaon Sector 20",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Chief",
+      "contact": 333333,
+      "address": "Town branch peshawar"
+    },
+    {
+      "id": "4",
+      "name": "RCB Restaurant",
+      "contact": 444444,
+      "address": "Board Bazzar peshawar"
+    },
+    {
+      "id": "5",
+      "name": "Starbuck",
+      "contact": 555555,
+      "address": "Gulber area islamabad"
+    },
+    {
+      "id": "6",
+      "name": "OM Sweets",
+      "contact": 666666,
+      "address": "Gulberg Branch Lahore"
+    }
+  ]
+}
